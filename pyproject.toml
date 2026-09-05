@@ -13,5 +13,8 @@ dependencies = [
     "PySide6>=6.6",
 ]
 
+[project.urls]
+Homepage = "https://github.com/aaaaaprvdgrwwelt/deskkit"
+
 [tool.setuptools.packages.find]
 include = ["deskkit*"]
