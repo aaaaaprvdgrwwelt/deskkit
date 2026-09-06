@@ -6,7 +6,7 @@ per `load`-Callback, siehe z. B. moviedesk/thumbs.py oder comicdesk/thumbs.py.
 """
 from __future__ import annotations
 
-from typing import Callable
+from collections.abc import Callable
 
 from PySide6.QtCore import QObject, QRunnable, QThreadPool, Signal
 from PySide6.QtGui import QImage, QPixmap
